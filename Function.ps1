@@ -14,7 +14,7 @@ Function Get-GEOIpInformation {
 #>
     [CmdletBinding()]
     param (
-        [String[]]$Ip,
+        [IPAddress[]]$Ip,
         [Switch]$ShowUI
     )
  
